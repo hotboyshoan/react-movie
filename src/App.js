@@ -16,7 +16,7 @@ function App() {
     <Fragment>
       <Routes>
         <Route element={<Main></Main>}>
-          <Route path="/" element={
+          <Route path="/react-movie/" element={
           <>
             <Banner></Banner>
             <HomePage></HomePage>
