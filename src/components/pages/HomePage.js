@@ -16,6 +16,9 @@ const HomePage = () => {
         <h2 className="text-3xl font-bold pb-5">Trending</h2>
         <MovieList type="popular"></MovieList>
       </section>
+      <section>
+        <h1>Design by Phạm Văn Hoàn</h1>
+      </section>
     </Fragment>
   );
 };
