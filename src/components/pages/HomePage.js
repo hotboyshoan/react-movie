@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import MovieList from '../movie/MovieList';
+import {Button} from '@mui/material'
 
 const HomePage = () => {
   return (
@@ -17,6 +18,7 @@ const HomePage = () => {
         <MovieList type="popular"></MovieList>
       </section>
       <section>
+        <Button variant='Phạm Văn Hoàn'>Demo Material UI</Button>
         <h1>Design by Phạm Văn Hoàn</h1>
       </section>
     </Fragment>
