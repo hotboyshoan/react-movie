@@ -17,10 +17,10 @@ function App() {
       <Routes>
         <Route element={<Main></Main>}>
           <Route path="/react-movie/" element={
-          <>
-            <Banner></Banner>
-            <HomePage></HomePage>
-          </>
+            <>
+              <Banner></Banner>
+              <HomePage></HomePage>
+            </>
           }></Route>
           <Route path="/movies" element={<MoviePage></MoviePage>}> </Route>
           <Route path="/movie/:movieId" element={<MovieDetailsPage></MovieDetailsPage>}> </Route>
