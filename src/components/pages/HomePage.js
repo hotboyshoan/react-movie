@@ -18,7 +18,9 @@ const HomePage = () => {
         <MovieList type="popular"></MovieList>
       </section>
       <section>
-        <Button variant='Phạm Văn Hoàn'>Demo Material UI</Button>
+        <Button style={{backgroundColor: "#6F5CF1", color: 'white', marginBottom : "20px"}} variant='text' color='success' onClick={() => {
+          alert("Hello Hà Anh Nguyễn");
+        }}>Demo Material UI</Button>
         <h1>Design by Phạm Văn Hoàn</h1>
       </section>
     </Fragment>
